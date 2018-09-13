@@ -1,0 +1,32 @@
+{
+  "name": "node-email-sender",
+  "version": "1.0.0",
+  "description": "Node emailer allows you to send HTML based emails with or without attachments.",
+  "main": "emailer.js",
+  "dependencies": {
+    "async": "^2.6.1",
+    "nodemailer": "^4.6.7",
+    "promise": "^8.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rudrakshpathak/node-emailer.git"
+  },
+  "author": "Rudraksh Pathak <rudraksh.pathak0407@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rudrakshpathak/node-emailer/issues"
+  },
+  "homepage": "https://github.com/rudrakshpathak/node-emailer#readme",
+  "keywords": [
+    "node-emailer",
+    "node",
+    "emailer",
+    "node-html-email",
+    "node-email-attachments"
+  ]
+}
