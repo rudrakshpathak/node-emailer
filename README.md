@@ -1,7 +1,7 @@
 # Node Emailer
 Node emailer allows you to send HTML based emails with or without attachments.
 
-You can visit npm for more info on [node-emailer package](https://www.npmjs.com/package/node-emailer)
+You can visit npm for more info on [node-email-sender package](https://www.npmjs.com/package/node-email-sender)
 
 [![version](https://img.shields.io/badge/version-v1.0.0-orange.svg)]()
 [![npm](https://img.shields.io/badge/node-v6.9.4-blue.svg)]()
