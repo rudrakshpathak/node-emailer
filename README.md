@@ -14,7 +14,7 @@ Run `npm install node-email-sender`
 ### Import Package
 Import this package where you want to use Email service.
 ```javascript
-var emailer = require('emailer');
+var emailer = require('node-email-sender');
 ```
 
 ### Creating email configuration
@@ -46,4 +46,29 @@ let response = emailer.sendMail({
     content: 'EMAIL_CONTENT', (MANDATORY)
     attachments: '[ATTACHMENT ARRAY]' (OPTIONAL) | FORMAT - {filename:'file.txt', path:'/path/to/file.txt'}
 });
+```
+
+### Sample code to run
+```javascript
+var sendMail = require('node-email-sender');
+
+let emailConfig = {
+    emailFrom: 'dummyemail@mailinator.com',
+    transporterConfig: {
+        service: 'gmail',
+        auth: {
+            user: 'dummyemail@mailinator.com',
+            pass: 'sample-password'
+        }
+    }
+}
+
+var response = sendMail.sendMail({
+    emailConfig: emailConfig,
+    to: 'dummyemail2@mailinator.com',
+    subject: 'Sample subject',
+    content: 'Sample content',
+});
+
+console.log(response);
 ```
