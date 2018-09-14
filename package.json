@@ -1,6 +1,6 @@
 {
   "name": "node-email-sender",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Node emailer allows you to send HTML based emails with or without attachments.",
   "main": "emailer.js",
   "dependencies": {
